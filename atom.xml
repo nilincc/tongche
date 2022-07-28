@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>逆鳞博客</title>
+  
+  
+  <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
+  
+  <link href="https://bk.nilin.cc/"/>
+  <updated>2022-07-28T13:40:34.674Z</updated>
+  <id>https://bk.nilin.cc/</id>
+  
+  <author>
+    <name>Admin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>寻找图床的记录</title>
+    <link href="https://bk.nilin.cc/2022/07/28/1/"/>
+    <id>https://bk.nilin.cc/2022/07/28/1/</id>
+    <published>2022-07-28T11:39:01.000Z</published>
+    <updated>2022-07-28T13:40:34.674Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>话说在找图床的道路上，我走了差不多三四天！真可谓一言难尽啊！不过也算是有一点点的欣慰吧。</p></blockquote><p>接下来我来分享一下我找到的图床哈。《<strong>当然我找的都是一些免费的，并且不需要备案的。</strong>》</p><h2 id="图床成功介绍"><a href="#图床成功介绍" class="headerlink" title="图床成功介绍"></a>图床成功介绍</h2><h3 id="sm-ms图床"><a href="#sm-ms图床" class="headerlink" title="sm.ms图床"></a>sm.ms图床</h3><p>看资料说：2015 年发布了 SM.MS 免费图床，目的就是为了解决论坛和博客分享图片的问题，并且提供一个免费的图床服务，让大家可以自由分享图片，不限制图片存储时间和不限制图片访问次数。</p><p>官网：<a href="https://sm.ms/">https://sm.ms/</a></p><p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：<br><img src="https://s2.loli.net/2022/07/28/8wclheKWCYqrOyJ.png"></p><h3 id="imgurl图床"><a href="#imgurl图床" class="headerlink" title="imgurl图床"></a>imgurl图床</h3><p>ImgURL诞生于2017年12月，是一款开源的图片管理系统（简称图床），使用PHP + SQLite3开发，您可以自行部署，也可使用<a href="https://imgurl.org/">https://imgurl.org/</a> 提供的在线服务。</p><p>官网：<a href="https://imgurl.org/">https://imgurl.org/</a></p><p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：<br><img src="https://s3.bmp.ovh/imgs/2022/07/28/d6d83b40527c1b6d.png"></p><h3 id="清酒免费CDN图床"><a href="#清酒免费CDN图床" class="headerlink" title="清酒免费CDN图床"></a>清酒免费CDN图床</h3><p>清酒图床貌似也是从17年开始运营至今，现在貌似使用的是腾讯COS+腾讯CDN加持，该图床加入了图片处理，内容审查等相关功能。</p><p>官网：<a href="https://pic.cdn.lkxin.cn/">https://pic.cdn.lkxin.cn/</a></p><p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：</p><p><img src="https://t1.pic.cdn.lkxin.cn/2022/07/28/62e27f10956ca.png" alt="新建项目 (2).png"></p><h3 id="可用图床说明"><a href="#可用图床说明" class="headerlink" title="可用图床说明"></a>可用图床说明</h3><p>请正确使用这些图床，毕竟这也是需要运营成本的，请善待这些宝贵资源哈。</p><h2 id="图床失败案例"><a href="#图床失败案例" class="headerlink" title="图床失败案例"></a>图床失败案例</h2><h3 id="GitHub-jsDelivr-PicGo图床方案"><a href="#GitHub-jsDelivr-PicGo图床方案" class="headerlink" title="GitHub+jsDelivr+PicGo图床方案"></a>GitHub+jsDelivr+PicGo图床方案</h3><p>这个办法呢以前是可行的，现在随着jsDelivr在咱们国内的备案被注销后，这个方法已经凉凉了。</p><h3 id="Gitee-PicGo图床方案"><a href="#Gitee-PicGo图床方案" class="headerlink" title="Gitee+PicGo图床方案"></a>Gitee+PicGo图床方案</h3><p>随着gitee在2022年3月24日在其网站上加入了防盗链，gitee这个图床方案也凉凉了。不过也有大神有办法去解决，但是作为小白的我，还是算了，太折腾人了。《懂得都懂，😁》</p><h3 id="Cloudflare-Workers-反代使用-GitHub-仓库搭建的图床"><a href="#Cloudflare-Workers-反代使用-GitHub-仓库搭建的图床" class="headerlink" title="Cloudflare Workers 反代使用 GitHub 仓库搭建的图床"></a>Cloudflare Workers 反代使用 GitHub 仓库搭建的图床</h3><p>这个办法我是没弄成，但是有大神已经成功了，教程地址：<a href="http://senjianlu.com/2021/12/cloudflare-workers-image/">http://senjianlu.com/2021/12/cloudflare-workers-image/</a></p><h3 id="Backblaze-vercel图床"><a href="#Backblaze-vercel图床" class="headerlink" title="Backblaze+vercel图床"></a>Backblaze+vercel图床</h3><p>这个就比较坑了，TM的vercel这个我已经部署成功了，但是Backblaze这个我注册不了账户，Backblaze这个注册账户应该还有东西是在咱们国内打不开的东西，直接造成Backblaze是注册不了的！但是也有大神是通过某种翻过墙头的技术，已经实现了这个图床功能。</p><p>教程地址：<a href="https://blazeb2.js.org/">https://blazeb2.js.org/</a></p><hr><p>以上的就是我这三四天折腾的图床方案，TM的折腾死我了，不过谁让我不想备案呢！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;话说在找图床的道路上，我走了差不多三四天！真可谓一言难尽啊！不过也算是有一点点的欣慰吧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接下来我来分享一下我找到的图床哈。《&lt;strong&gt;当然我找的都是一些免费的，并且不需要备案的。&lt;/strong&gt;》</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="图床" scheme="https://bk.nilin.cc/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录我的折腾记录一</title>
+    <link href="https://bk.nilin.cc/2022/07/26/hi1/"/>
+    <id>https://bk.nilin.cc/2022/07/26/hi1/</id>
+    <published>2022-07-26T05:14:14.000Z</published>
+    <updated>2022-07-27T09:56:22.850Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>话说在<strong>hexo</strong>文章里添加图片，真的有点让人脑袋疼！</p></blockquote><span id="more"></span><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>在网上搜了一大堆方法，要么是让安装插件<code>npm install https://github.com/CodeFalling/hexo-asset-image -- save</code>把图片跟hexo放到一个仓库中。</p><p>但是这种办法是最蠢的一种办法，而且图片打开是巨慢的！</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>要么是利用<code>Typora</code>+<code>GitHub</code>+<code>jsdelivr</code>搭建自己的图床。但是这种办法以前或许可以，现在也只能呵呵了！因为<code>jsdelivr</code>在国内好像也不能使用了！！！！毕竟就算现在想想办法可以使用，但是难保以后的某一天，又被禁止掉！！！</p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>再有一种方法就是花钱买储存了，例如：阿里云的OSS，又拍云，七牛，腾讯云，这些都是可以做图床的，难点之一就是···我就一个小小博客，至于为了一个图床在去备案吗？</p><p>我个人感觉完全没必要呀···<del>等我以后找到好方法了在去弄图片</del></p><hr><h2 id="文章中插入视频"><a href="#文章中插入视频" class="headerlink" title="文章中插入视频"></a>文章中插入视频</h2><p>视频测试：</p><iframe height=450 width=100% src="//player.bilibili.com/player.html?aid=796509355&bvid=BV1qC4y1b7SY&cid=219866703&page=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"> </iframe><h2 id="文章中插入音乐"><a href="#文章中插入音乐" class="headerlink" title="文章中插入音乐"></a>文章中插入音乐</h2><p>音乐测试</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5341279&auto=0&height=66"></iframe><p><img src="http://ys-d.ysepan.com/621628439/119025265/lqnmkio544K7G4853MJUd6/15127882726637602.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;话说在&lt;strong&gt;hexo&lt;/strong&gt;文章里添加图片，真的有点让人脑袋疼！&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="折腾记录" scheme="https://bk.nilin.cc/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录我的折腾记录之安装hexo</title>
+    <link href="https://bk.nilin.cc/2022/07/25/hi/"/>
+    <id>https://bk.nilin.cc/2022/07/25/hi/</id>
+    <published>2022-07-25T02:31:53.000Z</published>
+    <updated>2022-07-28T11:39:53.916Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>这也算是我这个小站的第一篇文章吧，记录一下折腾的记录。</p></blockquote><p>自从电脑的C盘被干满之后，不得已重装了一下系统，总所周知电脑系统重装之后，自己想要使用的软件，都需要重新的安装。</p><span id="more"></span><p>我个人的想法是，既然已经重装了电脑的系统，不如把以前弄的东西全部推倒重来好了。《<strong>毕竟电脑系统都是自己单独的重装的，🤭</strong>》</p><p>这次的电脑系统我直接给干到了<strong>win11</strong>🤭。</p><p>算了，懒得写了！</p><p>本来想洋洋洒洒的写一篇记录的，但是咱是一个大老粗，肚子里也没啥墨水，还是算了！就写道这里吧。</p><p>也许以后肚子里的墨水多了，会写出来我是如何在没有任何知识背景的前提下，安装了一个<strong>win11</strong>系统，然后又在这个系统上安装了<strong>git  Node.js  hexo</strong> 来搭建起来我的这个小博客的。</p><hr><h2 id="hexo的缺点"><a href="#hexo的缺点" class="headerlink" title="hexo的缺点"></a>hexo的缺点</h2><p>hexo只能在部署 <strong>Node.js、Git</strong> 和安装 <strong>VSCode</strong> 软件的电脑环境写文章。离开了这些环境，临时想更新文章一个字都难。</p><h3 id="图床问题"><a href="#图床问题" class="headerlink" title="图床问题"></a>图床问题</h3><p>还有一个比较头疼的事就是TM的图床也是一个大问题《ps：尤其是像我这样，既不想花钱买服务器，又想搭建博客的人来讲！》，如果不能想办法解决图床问题，那么这个博客也就只能是码字和代码了！</p><h2 id="hexo的优点"><a href="#hexo的优点" class="headerlink" title="hexo的优点"></a>hexo的优点</h2><p>说完hexo的缺点，那就说说hexo的优点吧，</p><p>纯静态文件，打开速度快。</p><p>部署到<strong>GitHub</strong>这样的<del>全球最大同性交友网站</del>竟然是免费的，嘎嘎。</p><p>内容批量修改很方便。直接在编辑器全局替换就行，不用连数据库更新数据。</p><hr>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这也算是我这个小站的第一篇文章吧，记录一下折腾的记录。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自从电脑的C盘被干满之后，不得已重装了一下系统，总所周知电脑系统重装之后，自己想要使用的软件，都需要重新的安装。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="折腾记录" scheme="https://bk.nilin.cc/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bk.nilin.cc/2022/07/24/hello-world/"/>
+    <id>https://bk.nilin.cc/2022/07/24/hello-world/</id>
+    <published>2022-07-24T14:14:00.708Z</published>
+    <updated>2022-07-24T14:14:00.708Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

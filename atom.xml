@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-08-14T06:12:50.001Z</updated>
+  <updated>2022-08-21T04:22:44.576Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>折腾OneDrive网盘搭建记录</title>
+    <link href="https://bk.nilin.cc/2022/08/21/6/"/>
+    <id>https://bk.nilin.cc/2022/08/21/6/</id>
+    <published>2022-08-21T03:50:38.000Z</published>
+    <updated>2022-08-21T04:22:44.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>  以前看到别的大佬都有自己的网盘，感觉好牛逼的样子，奈何自己是没有这类网盘的，总是想着以后自己一定要搞一个网盘，正好昨晚上在看大佬分享的文章《<a href="https://www.mspace.cc/archives/479">2022 申请 Office 365 E5 订阅并永久续期+ 5T 不限速网盘教程</a>》 +《<a href="https://www.mspace.cc/archives/482">2022 最完美的 0 成本 OneDrive 网盘搭建教程</a>》，索性咱也试试。🤭</p><p>亲测完全是0成本搭建哦，😄</p><p>因为是昨晚上捣鼓了半晚上的<code>OneDrive</code>网盘，所以今天来记录一下。</p><p>我搭建的网盘地址：<a href="https://pan.nilin.cc/">https://pan.nilin.cc/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  以前看到别的大佬都有自己的网盘，感觉好牛逼的样子，奈何自己是没有这类网盘的，总是想着以后自己一定要搞一个网盘，正好昨晚上在看大佬分享的文章《&lt;a href=&quot;https://www.mspace.cc/archives/479&quot;&gt;2022 申请 Office 365 E</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="OneDrive" scheme="https://bk.nilin.cc/tags/OneDrive/"/>
+    
+  </entry>
   
   <entry>
     <title>记录一下把网页文件部署到GitHub</title>

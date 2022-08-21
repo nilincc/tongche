@@ -1,324 +1,46 @@
-<!DOCTYPE html>
-<html lang='zh-CN'>
-
-<head>
-  <meta name="generator" content="Hexo 6.2.0">
-  <meta charset="utf-8">
-  
-
-  <meta http-equiv='x-dns-prefetch-control' content='on' />
-  <link rel='dns-prefetch' href='https://fastly.jsdelivr.net'>
-  <link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin>
-  <link rel='dns-prefetch' href='//unpkg.com'>
-
-  <meta name="renderer" content="webkit">
-  <meta name="force-rendering" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="HandheldFriendly" content="True" >
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="theme-color" content="#f8f8f8">
-  <title>寻找图床的记录 - 逆鳞博客</title>
-
-  
-    <meta name="description" content="话说在找图床的道路上，我走了差不多三四天！真可谓一言难尽啊！不过也算是有一点点的欣慰吧。  接下来我来分享一下我找到的图床哈。《当然我找的都是一些免费的，并且不需要备案的。》 图床成功介绍sm.ms图床看资料说：2015 年发布了 SM.MS 免费图床，目的就是为了解决论坛和博客分享图片的问题，并且提供一个免费的图床服务，让大家可以自由分享图片，不限制图片存储时间和不限制图片访问次数。 官网：h">
-<meta property="og:type" content="article">
-<meta property="og:title" content="寻找图床的记录">
-<meta property="og:url" content="https://bk.nilin.cc/2022/07/28/1/index.html">
-<meta property="og:site_name" content="逆鳞博客">
-<meta property="og:description" content="话说在找图床的道路上，我走了差不多三四天！真可谓一言难尽啊！不过也算是有一点点的欣慰吧。  接下来我来分享一下我找到的图床哈。《当然我找的都是一些免费的，并且不需要备案的。》 图床成功介绍sm.ms图床看资料说：2015 年发布了 SM.MS 免费图床，目的就是为了解决论坛和博客分享图片的问题，并且提供一个免费的图床服务，让大家可以自由分享图片，不限制图片存储时间和不限制图片访问次数。 官网：h">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s2.loli.net/2022/07/28/8wclheKWCYqrOyJ.png">
-<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/28/d6d83b40527c1b6d.png">
-<meta property="og:image" content="https://t1.pic.cdn.lkxin.cn/2022/07/28/62e27f10956ca.png">
-<meta property="article:published_time" content="2022-07-28T11:39:01.000Z">
-<meta property="article:modified_time" content="2022-07-28T13:40:34.674Z">
-<meta property="article:author" content="Admin">
-<meta property="article:tag" content="图床">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://s2.loli.net/2022/07/28/8wclheKWCYqrOyJ.png">
-  
-  
-
-  <!-- feed -->
-  
-    <link rel="alternate" href="/atom.xml" title="逆鳞博客" type="application/atom+xml">
-  
-
-  
-    
-<link rel="stylesheet" href="/css/main.css">
-
-  
-
-  
-
-  
-</head>
-
-<body>
-  
-
-
-
-
-  <div class='l_body' id='start'>
-    <aside class='l_left' layout='post'>
-    
-
-
-<header class="header">
-
-<div class="logo-wrap"><a class="title" href="/"><div class="main">逆鳞博客</div></a></div>
-<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/about/">关于</a></nav></header>
-
-<div class="widgets">
-
-<div class="widget-wrap single" id="toc"><div class="widget-header cap dis-select"><span class="name">本文目录</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E5%BA%8A%E6%88%90%E5%8A%9F%E4%BB%8B%E7%BB%8D"><span class="toc-text">图床成功介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#sm-ms%E5%9B%BE%E5%BA%8A"><span class="toc-text">sm.ms图床</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#imgurl%E5%9B%BE%E5%BA%8A"><span class="toc-text">imgurl图床</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%85%E9%85%92%E5%85%8D%E8%B4%B9CDN%E5%9B%BE%E5%BA%8A"><span class="toc-text">清酒免费CDN图床</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%AF%E7%94%A8%E5%9B%BE%E5%BA%8A%E8%AF%B4%E6%98%8E"><span class="toc-text">可用图床说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E5%BA%8A%E5%A4%B1%E8%B4%A5%E6%A1%88%E4%BE%8B"><span class="toc-text">图床失败案例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub-jsDelivr-PicGo%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88"><span class="toc-text">GitHub+jsDelivr+PicGo图床方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gitee-PicGo%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88"><span class="toc-text">Gitee+PicGo图床方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cloudflare-Workers-%E5%8F%8D%E4%BB%A3%E4%BD%BF%E7%94%A8-GitHub-%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA%E7%9A%84%E5%9B%BE%E5%BA%8A"><span class="toc-text">Cloudflare Workers 反代使用 GitHub 仓库搭建的图床</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Backblaze-vercel%E5%9B%BE%E5%BA%8A"><span class="toc-text">Backblaze+vercel图床</span></a></li></ol></li></ol></div></div></div>
-
-
-</div>
-
-
-    </aside>
-    <div class='l_main'>
-      
-
-      
-
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/">乱七八糟</a></div><div id="post-meta">发布于&nbsp;<time datetime="2022-07-28T11:39:01.000Z">2022-07-28</time></div></div>
-
-<article class='content md post'>
-<h1 class="article-title"><span>寻找图床的记录</span></h1>
-<blockquote>
-<p>话说在找图床的道路上，我走了差不多三四天！真可谓一言难尽啊！不过也算是有一点点的欣慰吧。</p>
-</blockquote>
-<p>接下来我来分享一下我找到的图床哈。《<strong>当然我找的都是一些免费的，并且不需要备案的。</strong>》</p>
-<h2 id="图床成功介绍"><a href="#图床成功介绍" class="headerlink" title="图床成功介绍"></a>图床成功介绍</h2><h3 id="sm-ms图床"><a href="#sm-ms图床" class="headerlink" title="sm.ms图床"></a>sm.ms图床</h3><p>看资料说：2015 年发布了 SM.MS 免费图床，目的就是为了解决论坛和博客分享图片的问题，并且提供一个免费的图床服务，让大家可以自由分享图片，不限制图片存储时间和不限制图片访问次数。</p>
-<p>官网：<a target="_blank" rel="noopener" href="https://sm.ms/">https://sm.ms/</a></p>
-<p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：<br><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s2.loli.net/2022/07/28/8wclheKWCYqrOyJ.png"></p>
-<h3 id="imgurl图床"><a href="#imgurl图床" class="headerlink" title="imgurl图床"></a>imgurl图床</h3><p>ImgURL诞生于2017年12月，是一款开源的图片管理系统（简称图床），使用PHP + SQLite3开发，您可以自行部署，也可使用<a target="_blank" rel="noopener" href="https://imgurl.org/">https://imgurl.org/</a> 提供的在线服务。</p>
-<p>官网：<a target="_blank" rel="noopener" href="https://imgurl.org/">https://imgurl.org/</a></p>
-<p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：<br><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2022/07/28/d6d83b40527c1b6d.png"></p>
-<h3 id="清酒免费CDN图床"><a href="#清酒免费CDN图床" class="headerlink" title="清酒免费CDN图床"></a>清酒免费CDN图床</h3><p>清酒图床貌似也是从17年开始运营至今，现在貌似使用的是腾讯COS+腾讯CDN加持，该图床加入了图片处理，内容审查等相关功能。</p>
-<p>官网：<a target="_blank" rel="noopener" href="https://pic.cdn.lkxin.cn/">https://pic.cdn.lkxin.cn/</a></p>
-<p>所以我也注册了一个账户，并且上传了一张我自己做的图片，如图：</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://t1.pic.cdn.lkxin.cn/2022/07/28/62e27f10956ca.png" alt="新建项目 (2).png"></p>
-<h3 id="可用图床说明"><a href="#可用图床说明" class="headerlink" title="可用图床说明"></a>可用图床说明</h3><p>请正确使用这些图床，毕竟这也是需要运营成本的，请善待这些宝贵资源哈。</p>
-<h2 id="图床失败案例"><a href="#图床失败案例" class="headerlink" title="图床失败案例"></a>图床失败案例</h2><h3 id="GitHub-jsDelivr-PicGo图床方案"><a href="#GitHub-jsDelivr-PicGo图床方案" class="headerlink" title="GitHub+jsDelivr+PicGo图床方案"></a>GitHub+jsDelivr+PicGo图床方案</h3><p>这个办法呢以前是可行的，现在随着jsDelivr在咱们国内的备案被注销后，这个方法已经凉凉了。</p>
-<h3 id="Gitee-PicGo图床方案"><a href="#Gitee-PicGo图床方案" class="headerlink" title="Gitee+PicGo图床方案"></a>Gitee+PicGo图床方案</h3><p>随着gitee在2022年3月24日在其网站上加入了防盗链，gitee这个图床方案也凉凉了。不过也有大神有办法去解决，但是作为小白的我，还是算了，太折腾人了。《懂得都懂，😁》</p>
-<h3 id="Cloudflare-Workers-反代使用-GitHub-仓库搭建的图床"><a href="#Cloudflare-Workers-反代使用-GitHub-仓库搭建的图床" class="headerlink" title="Cloudflare Workers 反代使用 GitHub 仓库搭建的图床"></a>Cloudflare Workers 反代使用 GitHub 仓库搭建的图床</h3><p>这个办法我是没弄成，但是有大神已经成功了，教程地址：<a target="_blank" rel="noopener" href="http://senjianlu.com/2021/12/cloudflare-workers-image/">http://senjianlu.com/2021/12/cloudflare-workers-image/</a></p>
-<h3 id="Backblaze-vercel图床"><a href="#Backblaze-vercel图床" class="headerlink" title="Backblaze+vercel图床"></a>Backblaze+vercel图床</h3><p>这个就比较坑了，TM的vercel这个我已经部署成功了，但是Backblaze这个我注册不了账户，Backblaze这个注册账户应该还有东西是在咱们国内打不开的东西，直接造成Backblaze是注册不了的！但是也有大神是通过某种翻过墙头的技术，已经实现了这个图床功能。</p>
-<p>教程地址：<a target="_blank" rel="noopener" href="https://blazeb2.js.org/">https://blazeb2.js.org/</a></p>
-<hr>
-<p>以上的就是我这三四天折腾的图床方案，TM的折腾死我了，不过谁让我不想备案呢！</p>
-
-
-<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
-</div></section></div>
-
-</article>
-
-<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body fs14"><a id="next" href="/2022/07/26/hi1/">记录我的折腾记录一<span class="note">较早</span></a><div class="line"></div><a id="prev" href="/2022/07/30/2/">给博客添加了一个评论系统之twikoo<span class="note">较新</span></a></section></div>
-
-
-
-
-
-
-  <div class='related-wrap md reveal' id="comments">
-    <div class='cmt-title cap theme'>
-      快来参与讨论吧
-    </div>
-    <div class='cmt-body twikoo'>
-      
-
-<div id="twikoo_container"><svg class="loading" style="vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
-    </div>
-  </div>
-
-
-
-      
-<footer class="page-footer reveal fs12"><hr><div class="text"><p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
-<p>本站由 <a href="https://bk.nilin.cc/">@Admin</a> 创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.8.0" title="v1.8.0">Stellar</a> 作为主题。</p>
-</div></footer>
-
-      <div class='float-panel mobile-only blur' style='display:none'>
-  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
-    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
-  </button>
-</div>
-
-    </div>
-  </div>
-  <div class='scripts'>
-    <script type="text/javascript">
-  stellar = {
-    // 懒加载 css https://github.com/filamentgroup/loadCSS
-    loadCSS: (href, before, media, attributes) => {
-      var doc = window.document;
-      var ss = doc.createElement("link");
-      var ref;
-      if (before) {
-        ref = before;
-      } else {
-        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
-        ref = refs[refs.length - 1];
-      }
-      var sheets = doc.styleSheets;
-      if (attributes) {
-        for (var attributeName in attributes) {
-          if (attributes.hasOwnProperty(attributeName)) {
-            ss.setAttribute(attributeName, attributes[attributeName]);
-          }
-        }
-      }
-      ss.rel = "stylesheet";
-      ss.href = href;
-      ss.media = "only x";
-      function ready(cb) {
-        if (doc.body) {
-          return cb();
-        }
-        setTimeout(function () {
-          ready(cb);
-        });
-      }
-      ready(function () {
-        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
-      });
-      var onloadcssdefined = function (cb) {
-        var resolvedHref = ss.href;
-        var i = sheets.length;
-        while (i--) {
-          if (sheets[i].href === resolvedHref) {
-            return cb();
-          }
-        }
-        setTimeout(function () {
-          onloadcssdefined(cb);
-        });
-      };
-      function loadCB() {
-        if (ss.addEventListener) {
-          ss.removeEventListener("load", loadCB);
-        }
-        ss.media = media || "all";
-      }
-      if (ss.addEventListener) {
-        ss.addEventListener("load", loadCB);
-      }
-      ss.onloadcssdefined = onloadcssdefined;
-      onloadcssdefined(loadCB);
-      return ss;
-    },
-
-    // 从 butterfly 和 volantis 获得灵感
-    loadScript: (src, opt) => new Promise((resolve, reject) => {
-      var script = document.createElement('script');
-      script.src = src;
-      if (opt) {
-        for (let key of Object.keys(opt)) {
-          script[key] = opt[key]
-        }
-      } else {
-        // 默认异步，如果需要同步，第二个参数传入 {} 即可
-        script.async = true
-      }
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    }),
-
-    // https://github.com/jerryc127/hexo-theme-butterfly
-    jQuery: (fn) => {
-      if (typeof jQuery === 'undefined') {
-        stellar.loadScript(stellar.plugins.jQuery).then(fn)
-      } else {
-        fn()
-      }
-    }
-  };
-  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.8.0';
-  stellar.config = {
-    date_suffix: {
-      just: '刚刚',
-      min: '分钟前',
-      hour: '小时前',
-      day: '天前',
-      month: '个月前',
-    },
-  };
-
-  // required plugins (only load if needs)
-  stellar.plugins = {
-    jQuery: 'https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
-    sitesjs: '/js/plugins/sites.js',
-    friendsjs: '/js/plugins/friends.js',
-  };
-
-  // optional plugins
-  if ('true' == 'true') {
-    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+.l_body {
+  display: flex;
+  margin: auto;
+  padding: 0 var(--gap-l);
+  justify-content: center;
+}
+.l_body .l_left {
+  z-index: 8;
+  width: var(--width-left);
+  flex-shrink: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.l_body .l_main {
+  flex-shrink: 1;
+  flex-grow: 1;
+  width: 320px;
+  max-width: var(--width-main);
+}
+@media screen and (max-width: $device-tablet) {
+  .mobile-only {
+    display: block !important;
   }
-  if ('true' == 'true') {
-    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@6/swiper-bundle.min.css","js":"https://unpkg.com/swiper@6/swiper-bundle.min.js"});
+  .l_body {
+    padding: 0;
   }
-  if ('' == 'true') {
-    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://fastly.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  .l_body .l_left {
+    position: fixed;
+    transform: translateX(-320px);
+    margin: 0;
+    left: 0;
+    background: var(--site-bg);
+    box-shadow: $boxshadow-card-float;
+    z-index: 9;
   }
-  if ('true' == 'true') {
-    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://fastly.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  .l_body .l_main {
+    max-width: 100%;
   }
-  if ('true' == 'true') {
-    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
+  .l_body.mobile .l_left {
+    transition: transform 0.3s ease-out;
   }
-  if ('false' == 'true') {
-    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti/umd/heti.min.css","js":"https://unpkg.com/heti/umd/heti-addon.min.js"});
+  .l_body.mobile.sidebar .l_left {
+    transform: translateX(0px);
   }
-</script>
-
-<!-- required -->
-
-  
-<script src="/js/main.js" async></script>
-
-
-
-<!-- optional -->
-
-  <script>
-    function load_twikoo() {
-        if (!document.querySelectorAll("#twikoo_container")[0]) return;
-        stellar.loadScript('https://fastly.jsdelivr.net/npm/twikoo@1.4.0/dist/twikoo.all.min.js', {defer: true}).then(function () {
-            const el = document.getElementById("twikoo_container");
-            var path = el.getAttribute('comment_id');
-            if (!path) {
-                path = decodeURI(window.location.pathname);
-            }
-            twikoo.init(Object.assign({"js":"https://fastly.jsdelivr.net/npm/twikoo@1.4.0/dist/twikoo.all.min.js","envId":"https://twikoo-nilincc.vercel.app/"}, {
-                el: '#twikoo_container',
-                path: path,
-            }));
-        });
-    }
-
-    window.addEventListener('DOMContentLoaded', (event) => {
-        load_twikoo();
-    });
-</script>
-
-
-
-<!-- inject -->
-
-
-  </div>
-</body>
-</html>
+}

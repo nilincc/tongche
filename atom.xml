@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-08-30T07:14:46.540Z</updated>
+  <updated>2022-09-13T12:50:21.339Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暂时先关闭评论</title>
+    <link href="https://bk.nilin.cc/2022/09/13/8/"/>
+    <id>https://bk.nilin.cc/2022/09/13/8/</id>
+    <published>2022-09-13T12:38:14.000Z</published>
+    <updated>2022-09-13T12:50:21.339Z</updated>
+    
+    <content type="html"><![CDATA[<p>  我决定暂时先关闭评论系统。</p><p>  毕竟个人的小博客基本没什么人来评论，再有一个就是我发现这个评论系统严重影响我博客的打开速度，与其这样不如直接关闭这个评论系统。</p><p>等到需要的时候在打开吧。</p><p><img src="https://pan.nilin.cc/api/raw/?path=/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/pic.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  我决定暂时先关闭评论系统。&lt;/p&gt;
+&lt;p&gt;  毕竟个人的小博客基本没什么人来评论，再有一个就是我发现这个评论系统严重影响我博客的打开速度，与其这样不如直接关闭这个评论系统。&lt;/p&gt;
+&lt;p&gt;等到需要的时候在打开吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pan</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="评论" scheme="https://bk.nilin.cc/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>隐引入尘烟观后感</title>

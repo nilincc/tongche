@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-10-22T08:25:16.055Z</updated>
+  <updated>2022-10-24T04:43:17.411Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始试用docsify</title>
+    <link href="https://bk.nilin.cc/2022/10/24/14/"/>
+    <id>https://bk.nilin.cc/2022/10/24/14/</id>
+    <published>2022-10-24T04:39:12.000Z</published>
+    <updated>2022-10-24T04:43:17.411Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="快速入门"><a href="#快速入门" class="headerlink" title="## 快速入门"></a>## 快速入门</h1><p>建议全局安装，这有助于在本地初始化和预览网站。<code>docsify-cli</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i docsify-cli -g</span><br></pre></td></tr></table></figure><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>如果要在子目录中编写文档，可以使用该命令。<code>./docs``init</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docsify init ./docs</span><br></pre></td></tr></table></figure><h2 id="写作内容"><a href="#写作内容" class="headerlink" title="写作内容"></a>写作内容</h2><p>完成后，您可以在子目录中看到文件列表。<code>init``./docs</code></p><ul><li><code>index.html</code>作为条目文件</li><li><code>README.md</code>作为主页</li><li><code>.nojekyll</code>防止 GitHub 页面忽略以下划线开头的文件</li></ul><p>您可以轻松更新 中的文档，当然可以<a href="https://docsify.js.org/#/more-pages">添加更多页面</a>。<code>./docs/README.md</code></p><h2 id="预览您的网站"><a href="#预览您的网站" class="headerlink" title="预览您的网站"></a>预览您的网站</h2><p>使用 运行本地服务器。您可以在浏览器上预览您的网站。<code>docsify serve``http://localhost:3000</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docsify serve docs</span><br></pre></td></tr></table></figure><hr><p>这个是安装和预览教程，先记录下来，免得以后再给忘了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;快速入门&quot;&gt;&lt;a href=&quot;#快速入门&quot; class=&quot;headerlink&quot; title=&quot;## 快速入门&quot;&gt;&lt;/a&gt;## 快速入门&lt;/h1&gt;&lt;p&gt;建议全局安装，这有助于在本地初始化和预览网站。&lt;code&gt;docsify-cli&lt;/code&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="docsify" scheme="https://bk.nilin.cc/tags/docsify/"/>
+    
+  </entry>
   
   <entry>
     <title>测试一下在我的博文里放一部电影</title>

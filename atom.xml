@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-10-24T04:43:17.411Z</updated>
+  <updated>2022-11-09T11:29:43.468Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分享一个适合个人展示的html5网页</title>
+    <link href="https://bk.nilin.cc/2022/11/09/15/"/>
+    <id>https://bk.nilin.cc/2022/11/09/15/</id>
+    <published>2022-11-09T11:21:22.000Z</published>
+    <updated>2022-11-09T11:29:43.468Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>漂亮的HTML5</strong></p><ul><li><strong>网址：</strong><a href="https://html5up.net/">详情</a></li></ul><p><strong>网站模板</strong>，这些<strong>模板</strong>是：</p><ul><li>全面<br><strong>响应</strong></li><li>建立在智能<br><strong>HTML5 + CSS3上</strong></li><li>超级<br><strong>可定制</strong></li><li>知识共享下 <strong>100％免费</strong></li></ul><hr><p><strong>乐乐的首页</strong> 这个首页是利用 <a href="https://html5up.net/">HTML5 UP</a>的big-picture搭建</p><iframe style="max-width: 100%" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="750px"src="https://lele.nilin.cc/"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;漂亮的HTML5&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;网址：&lt;/strong&gt;&lt;a href=&quot;https://html5up.net/&quot;&gt;详情&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;网站模板&lt;/strong&gt;，这些&lt;s</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="html5" scheme="https://bk.nilin.cc/tags/html5/"/>
+    
+  </entry>
   
   <entry>
     <title>开始试用docsify</title>

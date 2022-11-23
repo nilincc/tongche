@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-11-20T16:41:29.866Z</updated>
+  <updated>2022-11-23T13:58:45.225Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>疫情原因在家休息吧</title>
+    <link href="https://bk.nilin.cc/2022/11/23/17/"/>
+    <id>https://bk.nilin.cc/2022/11/23/17/</id>
+    <published>2022-11-23T13:47:13.000Z</published>
+    <updated>2022-11-23T13:58:45.225Z</updated>
+    
+    <content type="html"><![CDATA[<p>  随着阳性病例不断的增加和核算的异常表现，我们这个小县城终于还是发布了静态管理了！</p><p>前段时间随着在外市或者邻县城上学的学生被放假回来之后，也是在那个时间段，我们周边就有不断的出现了阳性，以及核算的异常，外加各种原因吧，这不短短半个月的时间，终于发布了要居家静默的管理政策。</p><p>我也在想着，也是时候该好好的休息几天了。不然也是感觉有点疲惫了。</p><p>回想一下这一年的时光，真的是过的非常快。不知不觉的这都马上一年了，虽然还有俩月的时间！</p><p>根据这波疫情的发展和阔散，我们村的支书，说是静默管理5天，我个人估计应该会静默管理最少一礼拜，也不知道到时候会不会解封。</p><p>还好前段时间就已经准备好了一些生活的物资。不至于他们发布静默管理的时候手忙脚乱。</p><p>好好在家休息吧。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  随着阳性病例不断的增加和核算的异常表现，我们这个小县城终于还是发布了静态管理了！&lt;/p&gt;
+&lt;p&gt;前段时间随着在外市或者邻县城上学的学生被放假回来之后，也是在那个时间段，我们周边就有不断的出现了阳性，以及核算的异常，外加各种原因吧，这不短短半个月的时间，终于发布了要居家静</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="疫情" scheme="https://bk.nilin.cc/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>艹原来手机还能这么玩</title>
@@ -499,26 +524,6 @@
     
     
     <category term="折腾记录" scheme="https://bk.nilin.cc/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://bk.nilin.cc/2022/07/24/hello-world/"/>
-    <id>https://bk.nilin.cc/2022/07/24/hello-world/</id>
-    <published>2022-07-24T14:14:00.708Z</published>
-    <updated>2022-07-24T14:14:00.708Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   

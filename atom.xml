@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-11-23T14:03:13.984Z</updated>
+  <updated>2022-11-24T13:00:11.866Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>居家的日子记录</title>
+    <link href="https://bk.nilin.cc/2022/11/24/18/"/>
+    <id>https://bk.nilin.cc/2022/11/24/18/</id>
+    <published>2022-11-24T12:48:17.000Z</published>
+    <updated>2022-11-24T13:00:11.866Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>受疫情的影响，现在俺们整个县城都是静默状态了，今天是第一天。</p></blockquote><p>顺便记录一下吧</p><h2 id="11月24日"><a href="#11月24日" class="headerlink" title="11月24日"></a>11月24日</h2><p>今早上睁开眼一看时间，卧槽12点了，对，你没看错中午12点了！我才睡醒，也正是疫情的原因，可以无后顾之忧去睡。也从来没有这么的好好的睡上一觉了！</p><p>就算12点醒了，但是还是懒得起床，一直到下午三点半才起来，主要是尿憋得受不鸟了，又是冬天····冷啊。</p><p>反正已经起来了，闲着也是闲着，还是弄点水把那一个多月没洗过的车洗一下！</p><p>反正最近也开不了了，咱别的时候没时间洗，现在有时间了，总得让它干干净净吧。</p><p>洗完车一看时间，擦，快六点了！吃个晚饭，一天一顿饭的生活蛮不错的。</p><p>打开电脑水一篇，看看别的博客的博文，在刷刷抖音，准备睡觉。</p><p>多么朴实而奢华的一天，舒服。</p><p><img src="https://s1.vika.cn/space/2022/11/24/be7ea74c901640d2bd14682a2a62ea73"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;受疫情的影响，现在俺们整个县城都是静默状态了，今天是第一天。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;顺便记录一下吧&lt;/p&gt;
+&lt;h2 id=&quot;11月24日&quot;&gt;&lt;a href=&quot;#11月24日&quot; class=&quot;headerlink&quot; title=&quot;</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="疫情" scheme="https://bk.nilin.cc/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>疫情原因在家休息吧</title>
@@ -493,30 +521,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;话说在&lt;strong&gt;hexo&lt;/strong&gt;文章里添加图片，真的有点让人脑袋疼！&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
-    
-    
-    <category term="折腾记录" scheme="https://bk.nilin.cc/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录我的折腾记录之安装hexo</title>
-    <link href="https://bk.nilin.cc/2022/07/25/hi/"/>
-    <id>https://bk.nilin.cc/2022/07/25/hi/</id>
-    <published>2022-07-25T02:31:53.000Z</published>
-    <updated>2022-07-28T11:39:53.916Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>这也算是我这个小站的第一篇文章吧，记录一下折腾的记录。</p></blockquote><p>自从电脑的C盘被干满之后，不得已重装了一下系统，总所周知电脑系统重装之后，自己想要使用的软件，都需要重新的安装。</p><span id="more"></span><p>我个人的想法是，既然已经重装了电脑的系统，不如把以前弄的东西全部推倒重来好了。《<strong>毕竟电脑系统都是自己单独的重装的，🤭</strong>》</p><p>这次的电脑系统我直接给干到了<strong>win11</strong>🤭。</p><p>算了，懒得写了！</p><p>本来想洋洋洒洒的写一篇记录的，但是咱是一个大老粗，肚子里也没啥墨水，还是算了！就写道这里吧。</p><p>也许以后肚子里的墨水多了，会写出来我是如何在没有任何知识背景的前提下，安装了一个<strong>win11</strong>系统，然后又在这个系统上安装了<strong>git  Node.js  hexo</strong> 来搭建起来我的这个小博客的。</p><hr><h2 id="hexo的缺点"><a href="#hexo的缺点" class="headerlink" title="hexo的缺点"></a>hexo的缺点</h2><p>hexo只能在部署 <strong>Node.js、Git</strong> 和安装 <strong>VSCode</strong> 软件的电脑环境写文章。离开了这些环境，临时想更新文章一个字都难。</p><h3 id="图床问题"><a href="#图床问题" class="headerlink" title="图床问题"></a>图床问题</h3><p>还有一个比较头疼的事就是TM的图床也是一个大问题《ps：尤其是像我这样，既不想花钱买服务器，又想搭建博客的人来讲！》，如果不能想办法解决图床问题，那么这个博客也就只能是码字和代码了！</p><h2 id="hexo的优点"><a href="#hexo的优点" class="headerlink" title="hexo的优点"></a>hexo的优点</h2><p>说完hexo的缺点，那就说说hexo的优点吧，</p><p>纯静态文件，打开速度快。</p><p>部署到<strong>GitHub</strong>这样的<del>全球最大同性交友网站</del>竟然是免费的，嘎嘎。</p><p>内容批量修改很方便。直接在编辑器全局替换就行，不用连数据库更新数据。</p><hr>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;这也算是我这个小站的第一篇文章吧，记录一下折腾的记录。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;自从电脑的C盘被干满之后，不得已重装了一下系统，总所周知电脑系统重装之后，自己想要使用的软件，都需要重新的安装。&lt;/p&gt;</summary>
     
     
     

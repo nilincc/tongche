@@ -6,7 +6,7 @@
   <link href="https://bk.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://bk.nilin.cc/"/>
-  <updated>2022-11-24T13:00:11.866Z</updated>
+  <updated>2022-11-25T12:52:45.252Z</updated>
   <id>https://bk.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好几年了没看到放烟花的了</title>
+    <link href="https://bk.nilin.cc/2022/11/25/19/"/>
+    <id>https://bk.nilin.cc/2022/11/25/19/</id>
+    <published>2022-11-25T12:15:23.000Z</published>
+    <updated>2022-11-25T12:52:45.252Z</updated>
+    
+    <content type="html"><![CDATA[<p>  自从2019年发布的禁止燃放烟花爆竹的禁令之后好多年没在听到和看到全城燃放烟花爆竹的了，今晚上算是看到了。哈哈</p><p>主要是最近一段时间，因为疫情原因，不是静默就是隔离。</p><p>估计也是因为太压抑了，所以才燃放烟花爆竹的，</p><p>欣赏一下哈。朋友圈里的，过年的气氛。</p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://pan.nilin.cc/api/raw/?path=/%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB/video(2).mp4","pic":"https://pan.nilin.cc/api/raw/?path=/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/QQ%E6%88%AA%E5%9B%BE20221125204928.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  自从2019年发布的禁止燃放烟花爆竹的禁令之后好多年没在听到和看到全城燃放烟花爆竹的了，今晚上算是看到了。哈哈&lt;/p&gt;
+&lt;p&gt;主要是最近一段时间，因为疫情原因，不是静默就是隔离。&lt;/p&gt;
+&lt;p&gt;估计也是因为太压抑了，所以才燃放烟花爆竹的，&lt;/p&gt;
+&lt;p&gt;欣赏一下哈。朋友</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="疫情" scheme="https://bk.nilin.cc/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>居家的日子记录</title>
@@ -505,29 +532,6 @@
     
     
     <category term="图床" scheme="https://bk.nilin.cc/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录我的折腾记录一</title>
-    <link href="https://bk.nilin.cc/2022/07/26/hi1/"/>
-    <id>https://bk.nilin.cc/2022/07/26/hi1/</id>
-    <published>2022-07-26T05:14:14.000Z</published>
-    <updated>2022-07-27T09:56:22.850Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>话说在<strong>hexo</strong>文章里添加图片，真的有点让人脑袋疼！</p></blockquote><span id="more"></span><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>在网上搜了一大堆方法，要么是让安装插件<code>npm install https://github.com/CodeFalling/hexo-asset-image -- save</code>把图片跟hexo放到一个仓库中。</p><p>但是这种办法是最蠢的一种办法，而且图片打开是巨慢的！</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>要么是利用<code>Typora</code>+<code>GitHub</code>+<code>jsdelivr</code>搭建自己的图床。但是这种办法以前或许可以，现在也只能呵呵了！因为<code>jsdelivr</code>在国内好像也不能使用了！！！！毕竟就算现在想想办法可以使用，但是难保以后的某一天，又被禁止掉！！！</p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>再有一种方法就是花钱买储存了，例如：阿里云的OSS，又拍云，七牛，腾讯云，这些都是可以做图床的，难点之一就是···我就一个小小博客，至于为了一个图床在去备案吗？</p><p>我个人感觉完全没必要呀···<del>等我以后找到好方法了在去弄图片</del></p><hr><h2 id="文章中插入视频"><a href="#文章中插入视频" class="headerlink" title="文章中插入视频"></a>文章中插入视频</h2><p>视频测试：</p><iframe height=450 width=100% src="//player.bilibili.com/player.html?aid=796509355&bvid=BV1qC4y1b7SY&cid=219866703&page=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"> </iframe><h2 id="文章中插入音乐"><a href="#文章中插入音乐" class="headerlink" title="文章中插入音乐"></a>文章中插入音乐</h2><p>音乐测试</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5341279&auto=0&height=66"></iframe><p><img src="http://ys-d.ysepan.com/621628439/119025265/lqnmkio544K7G4853MJUd6/15127882726637602.jpg"></p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;话说在&lt;strong&gt;hexo&lt;/strong&gt;文章里添加图片，真的有点让人脑袋疼！&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="乱七八糟" scheme="https://bk.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
-    
-    
-    <category term="折腾记录" scheme="https://bk.nilin.cc/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
